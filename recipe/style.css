@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavenderblush;
+    width:1000px;
+    border:dotted 10px lightpink;
+    padding:40px;
+    margin:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    color:darkmagenta;
+    font-size:48px;
+}
+
+h2{
+    color:hotpink;
+}
+
+h1, h2 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+}
+
+img{
+    width:500px;
+    border-radius: 20px;
+}
+
