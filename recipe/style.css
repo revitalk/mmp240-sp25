@@ -9,11 +9,13 @@ body{
     margin:40px;
     margin-left:auto;
     margin-right:auto;
+    font-size:1.2rem;
+    line-height: 1.4em;
 }
 
 h1{
     color:darkmagenta;
-    font-size:48px;
+    font-size:3rem;
 }
 
 h2{
@@ -30,3 +32,6 @@ img{
     border-radius: 20px;
 }
 
+li{
+    margin-bottom:1em;
+}
