@@ -1,0 +1,36 @@
+
+
+body{
+}
+
+#wrapper{
+
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blanchedalmond;
+
+}
+
+header{
+    padding: 4em 2em;
+    background:
+    linear-gradient(90deg, #000 0%, #000 40%, rgba(0, 0, 0, 0.00) 60%, rgba(0, 0, 0, 0.00) 100%),
+    url("images/westwing-cast.jpg") no-repeat right,
+    #000;
+}
+
+
+.banner-text{
+    color:#fff;
+    width:40%;
+}
+
+.btn{
+    color:#fff;
+    background-color: rgb(167, 6, 6);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    display:inline-block;
+}
