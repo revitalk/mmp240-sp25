@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* *{
+    margin:0;
+    padding:0;
+    border:none;
+} */
 
 body{
+    font-family: "Work Sans", sans-serif;
 }
 
 #wrapper{
@@ -8,7 +15,6 @@ body{
     width:1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: blanchedalmond;
 
 }
 
@@ -28,9 +34,47 @@ header{
 
 .btn{
     color:#fff;
-    background-color: rgb(167, 6, 6);
+    background-color: #A71C1C;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 10px;
     display:inline-block;
+}
+
+nav{
+    background-color: #A71C1C;
+}
+
+nav ul{
+    margin:0;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav a{
+    display:inline-block;
+    padding:0.7em 2em;
+    color:#fff;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color:#631d1d;
+}
+
+.col{
+    float:left;
+    width:48%;
+    margin-right:4%;
+}
+
+.col:last-child{
+    margin-right: 0;
+}
+
+footer{
+    clear:both;
 }
